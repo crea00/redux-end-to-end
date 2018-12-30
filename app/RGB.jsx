@@ -23,3 +23,5 @@ export default class RGB extends Component {
     );
   }
 }
+
+let prin

@@ -7,6 +7,7 @@ export default `
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Redux: End to End</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/app.css">
   </head>
   <body>
     <div id="app">
