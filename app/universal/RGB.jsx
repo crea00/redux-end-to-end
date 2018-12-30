@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ColorBlock from './ColorBlock';
+import ColorBlock from '../ColorBlock';
 import Slider from './Slider';
 
 export default class RGB extends Component {

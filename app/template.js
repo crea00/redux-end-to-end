@@ -1,4 +1,4 @@
-export default `
+export default html => `
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,8 +10,7 @@ export default `
     <link rel="stylesheet" href="/assets/app.css">
   </head>
   <body>
-    <div id="app">
-    </div>
+    <div id="app">${html}</div>
   </body>
   <script src="/assets/bundle.js"></script>
 </html>

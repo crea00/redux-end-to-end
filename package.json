@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "server": "yarn run build-client && babel-node app/server.js --preset ex2015, react, stage-2",
-    "build-client": "webpack --config ./webpack.config.ssr.js --mode production",
+    "build-client": "webpack --config ./webpack.config.ssr.js",
     "start": "webpack-dev-server --progress --colors -w"
   },
   "repository": "https://github.com/crea00/redux-end-to-end.git",
